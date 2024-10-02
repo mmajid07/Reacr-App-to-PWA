@@ -1,0 +1,14 @@
+{
+    "overrides": [
+      {
+        "files": ["src/serviceWorker.js"],
+        "env": {
+          "serviceworker": true
+        },
+        "rules": {
+          "no-restricted-globals": "off"
+        }
+      }
+    ]
+  }
+  
